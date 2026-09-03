@@ -1,0 +1,53 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abas dos Times</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+
+    <div class="aba-container">
+        <nav class="aba-botoes">
+        <button class="aba-link ativa" onclick="abrirAba(event, 'bahia')">BAHIA</button>
+        <button class="aba-link" onclick="abrirAba(event, 'vice')">VICE</button>
+        <button class="aba-link" onclick="abrirAba(event, 'real-madrid')">REAL MADRID</button>
+        <button class="aba-link" onclick="abrirAba(event, 'roma')">ROMA</button>
+        <button class="aba-link" onclick="abrirAba(event, 'arsenal')">ARSENAL</button>
+        </nav>
+
+        <div id="bahia" class="aba-conteudo ativa">
+        <h2>Esporte Clube Bahia</h2>
+        <img src="images/bahia2.jpg" alt="Escudo do Bahia" class="imagem-aba">
+        <p>Fundado em 1º de janeiro de 1931, o Esporte Clube Bahia 🇧🇷 é uma das instituições mais tradicionais do futebol brasileiro e o clube com maior número de títulos estaduais do estado da Bahia. Conhecido popularmente como o Esquadrão de Aço ou Tricolor baiano, tem sua sede na cidade de Salvador e manda seus jogos na Casa de Apostas Arena Fonte Nova.</p>
+        </div>
+
+        <div id="vice" class="aba-conteudo">
+        <h2>Esporte Clube Vicetoria</h2>
+        <img src="images/vice2.jpg" alt="Escudo do Vitória" class="imagem-aba">
+        <p>O Esporte Clube Vitória, fundado em 13 de maio de 1899, é um dos clubes de futebol mais antigos do Brasil ainda em atividade. Conhecido como o Leão da Barra ou Colossal, tem sua casa no Estádio Manoel Barradas (Barradão), localizado no bairro de Canabrava, em Salvador.</p>
+        </div>
+
+        <div id="real-madrid" class="aba-conteudo">
+        <h2>Real Madrid C. F.</h2>
+        <img src="images/real.jpg" alt="Escudo do Real Madrid" class="imagem-aba">
+        <p>O Real Madrid Club de Fútbol, fundado em 6 de março de 1902, é amplamente reconhecido como a maior e mais vitoriosa instituição do futebol mundial. Eleito pela FIFA como o Melhor Clube do Século XX, o time espanhol combina uma história rica em títulos com uma marca global de grande impacto.</p>
+        </div>
+
+        <div id="roma" class="aba-conteudo">
+        <h2>A.S. Roma</h2>
+        <img src="images/roma.jpg" alt="Escudo da Roma" class="imagem-aba">
+        <p>A Associazione Sportiva Roma, fundada em 7 de junho de 1927, é um dos clubes mais tradicionais e populares do futebol italiano. Conhecida como I Giallorossi (Os Amarelo-Encarnados) ou La Lupa (A Loba), a Roma manda seus jogos no histórico Stadio Olimpico, dividindo o estádio com sua maior rival, a Lazio.</p>
+        </div>
+
+        <div id="arsenal" class="aba-conteudo">
+        <h2>Arsenal F.C.</h2>
+        <img src="images/arsenal.jpg" alt="Escudo do Arsenal" class="imagem-aba">
+        <p>O Arsenal Football Club, fundado em 1886 por trabalhadores da fábrica de munições Royal Arsenal em Woolwich, é uma das equipes mais vitoriosas e influentes do futebol inglês. Sediado no norte de Londres, manda seus jogos no Emirates Stadium desde 2006, após décadas no lendário estádio de Highbury.</p>
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+    </body>
+    </html>
